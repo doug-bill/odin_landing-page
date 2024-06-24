@@ -1,4 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    
 body{
     background-color: #1f2937;
     color:white;
+    font-family: Roboto,'Helvetica Neue', sans-serif
+}
+
+li{
+    list-style-type:none;
+    padding: 0 12px;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    padding: 0 24px;
+}
+
+a:link{
+    text-decoration: none;
+    color:#e5e7eb;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.Logo > a:link{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.right-links{
+    margin-left:auto;
+}
+
+.header{
+    height: 72px;
+    width: 100%;
+    display: flex;
+    background-color: azure;
+}
+
+.title{
+    font-size: 48px;
+    font-weight: bolder;
+    color:#f9faf8;
 }
