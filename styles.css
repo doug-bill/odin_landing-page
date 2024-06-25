@@ -104,11 +104,11 @@ button{
 .Section2{
     display: flex;
     flex-direction: column;
-    height: 500px;
+    height: 700px;
     justify-content: Center;
     align-items: center;
     margin: 32px 0;
-    background-color:whitesmoke ;
+    background-color:white;
 }
 
 h2{
@@ -125,21 +125,21 @@ font-size: 36px;
 
 
 .item{
-    height: 300px;
-    width: 250px;
+    height: 450px;
+    width: 350px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    padding:12px;
-    justify-content: center;
+    padding:8px;
+    justify-content: flex-start;
     align-items: center;
     text-align: center;
 }
 
 .card{
-    height: 200px;
-    width: 200px;
-    margin: 0 12px;
+    height: 370px;
+    width: 275px;
+    margin: 0;
     margin-bottom: 12px;
     border: 4px outset #3882f6;
     border-radius: 8px;
